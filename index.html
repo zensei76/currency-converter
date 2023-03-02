@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Currency Converter</h1>
+    <div class="container  ">
+        <form action="">
+    
+            <div class="form-date">
+                
+                <!-- <label for="date">Date :</label> -->
+                <input type="date" name="date" id="date" class="date " />
+
+            </div>
+           
+    
+          <div class="form-group">
+    
+            <label for="from" class="from">From</label>
+            <select class="custom-select select" id="currency1">
+                <option value="">Choose currency</option>
+            </select>
+    
+            <label for="to" class="to">To</label>
+            <select class="custom-select select" id="currency2">
+                <option value="">Choose currency</option>
+            </select>
+            
+    
+          </div>
+    
+    
+    
+    
+          <div class="input-group">
+            <input type="text" class=" input " id="input" />
+            <div class="input-group-prepend">
+                <span class="input-group-text rounded-right" id="input-lable">curr</span>
+            </div>
+
+            <input type="submit" id="submit" value="Convert" class="submit-btn" />
+
+            <input type="text" class="input " id="output" />
+            <div class="input-group-prepend">
+                <span class="input-group-text rounded-right" id="output-lable">curr</span>
+            </div>
+    
+            
+          </div>
+    
+ 
+        
+    
+        </form>
+    </div>
+
+    <script src="scipt.js"></script>
+  </body>
+</html>
